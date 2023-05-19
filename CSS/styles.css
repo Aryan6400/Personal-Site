@@ -1,0 +1,203 @@
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Karla', sans-serif;
+}
+h1{
+    margin-bottom: 0;
+    font-size: 4em;
+    margin-top: 0;
+    line-height: 2;
+    font-family: 'Dancing Script', cursive;
+    color: #66bfbf;
+
+}
+h2{
+    color: #66bfbf;
+    font-size: 2.5em;
+    font-family: 'Kalam', cursive;
+    font-weight: normal;
+}
+h3{
+    color: #11999e;
+}
+hr{
+    border-style: dotted none none none;
+    border-width: 7px;
+    border-color: rgb(151, 148, 148);
+    width: 10%;
+}
+p{
+    line-height: 2;
+}
+
+/* ......----Top----...... */
+
+.Top{
+    width: 100%;
+    /* height: 100vh; */
+    padding-top: 100px;
+    /* margin: auto; */
+    position: relative;
+    background-color: #eaf6f6;
+}
+.student{
+    margin-top: 10px;
+}
+.stu{
+    text-decoration: underline;
+}
+.topcloud{
+    width: 200px;
+    border-radius: 100%;
+    position: absolute;
+    right: 300px;
+    top: 80px;
+}
+.bottomcloud{
+    width: 200px;
+    position: absolute;
+    border-radius: 100%;
+    bottom: 320px;
+    left: 230px;
+}
+#kgpImage{
+    /* position: relative; */
+    padding-top: 60px;
+    /* right: 6vw; */
+}
+
+/* ......----Middle----...... */
+
+.Middle{
+    margin: auto;
+}
+.myImage{
+    width: 200px;
+}
+.profile{
+    padding: 50px;
+    width: 60%;
+    margin: auto;
+}
+.introParagraph{
+    width: 50%;
+    margin: auto;
+}
+
+/* ......Skills...... */
+
+.skillHead{
+    margin-top: 0px;
+    padding-bottom: 40px;
+}
+.Skills{
+    position: relative;
+    padding-bottom: 40px;
+    padding-top: 80px;
+}
+
+/* Drama */
+
+.Drama{
+    width: 60%;
+    height: 200px;
+    position: relative;
+    left: 390px;
+    top: 270px;
+}
+.dramaImage{
+    width: 200px;
+    position: absolute;
+    right: 100px;
+    bottom: 20px;
+}
+.skillDrama{
+    width: 60%;
+    position: absolute;
+    text-align: left;
+}
+.headDrama{
+    position: relative;
+    margin-bottom: 0;
+    margin-top: 0;
+    right: 410px;
+}
+
+/* FilmMaking */
+
+.FilmMaking{
+    width: 60%;
+    position: relative;
+    height: 200px;
+    left: 260px;
+    margin: 50px;
+    bottom: 240px;
+}
+.filmImage{
+    width: 200px;
+    position: absolute;
+    left: 10px;
+    border-radius: 100%;
+    bottom: 20px;
+}
+.skillFilm{
+    width: 60%;
+    position: absolute;
+    text-align: left;
+    right: 80px;
+}
+.headFilm{
+    position: relative;
+    margin-bottom: 0;
+    margin-top: 0;
+    right: 118px;
+}
+
+/* Contact */
+
+.Contact{
+    padding: 70px 50px 100px 50px;
+    width: 60%;
+    margin: auto;
+}
+.headContact{
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+.contactButton{
+    position: relative;
+    top: 15px;
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+    border: 1px solid aquamarine;
+    border-radius: 15px;
+    /* background-color: aquamarine; */
+    background-image: linear-gradient(to right, rgb(161, 249, 188) , rgb(76, 231, 197));
+}
+.contactButton:hover{
+    background-image: linear-gradient(to right, rgb(92, 212, 128) , rgb(33, 193, 158));
+}
+#ContactParagraph{
+    margin: 0 auto 40px auto;
+    width: 50%;
+}
+
+/* Footer */
+
+.Bottom{
+    margin: auto;
+    padding: 30px 30px 10px;
+    background-color: aquamarine;
+}
+.footerLinks{
+    padding: 20px;
+    text-decoration: none;
+}
+.footerLinks:hover{
+    text-decoration: underline;
+}
+.copyright{
+    font-size: .75rem;
+}
